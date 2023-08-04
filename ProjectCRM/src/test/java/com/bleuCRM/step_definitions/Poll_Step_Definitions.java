@@ -36,6 +36,8 @@ public class Poll_Step_Definitions {
     @When("user clicks on Employees and Departments link on the table")
     public void user_clicks_on_box_on_the_table() {
         new PollPage().employeesAndDepartmentsTabOnPopUp.click();
+
+    // trigger1
     }
 
     @Then("contacts should be listed")
